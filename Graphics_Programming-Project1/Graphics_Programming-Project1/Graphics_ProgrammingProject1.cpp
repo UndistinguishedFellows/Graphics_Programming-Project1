@@ -14,7 +14,7 @@ Graphics_ProgrammingProject1::Graphics_ProgrammingProject1(QWidget *parent)
 	// Some initialitzations -----------
 
 	// Actually creating the chart
-	chart = new Chart(this);
+	chart = new Chart(ui.frame);
 	chart->show();
 
 	// Create the color dialog
