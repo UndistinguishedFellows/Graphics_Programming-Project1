@@ -4,6 +4,8 @@
 
 class Chart : public QWidget
 {
+	friend class Graphics_ProgrammingProject1;
+
 	Q_OBJECT
 
 public:
@@ -15,4 +17,9 @@ public:
 	
 	void SetAValue(int val);
 	void SetBValue(int val);
+
+private:
+	QColor aColor;
+	QColor bColor;
+
 };

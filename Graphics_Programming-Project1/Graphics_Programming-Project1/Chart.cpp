@@ -3,6 +3,7 @@
 Chart::Chart(QWidget *parent)
 	: QWidget(parent)
 {
+	aColor = bColor = QColor(0, 0, 0);
 }
 
 Chart::~Chart()
