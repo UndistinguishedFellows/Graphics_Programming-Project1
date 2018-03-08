@@ -13,4 +13,3 @@ SOURCES += ./main.cpp \
     ./Chart.cpp \
     ./Graphics_ProgrammingProject1.cpp
 FORMS += ./Graphics_ProgrammingProject1.ui
-RESOURCES += Graphics_ProgrammingProject1.qrc

@@ -3,15 +3,8 @@
 # ------------------------------------------------------
 
 TEMPLATE = app
-TARGET = Graphics_Programming-Project1
-DESTDIR = ../x64/Debug
 QT += core gui widgets
-CONFIG += debug console
-DEFINES += _UNICODE WIN64 QT_DLL QT_WIDGETS_LIB
-INCLUDEPATH += ./GeneratedFiles \
-    . \
-DEPENDPATH += .
-OBJECTS_DIR += debug
-UI_DIR += ./GeneratedFiles
-RCC_DIR += ./GeneratedFiles
+CONFIG += console
+INCLUDEPATH +=.
+DEPENDPATH +=.
 include(Graphics_Programming-Project1.pri)
