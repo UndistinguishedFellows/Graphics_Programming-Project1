@@ -10,9 +10,7 @@ CONFIG += debug console
 DEFINES += _UNICODE WIN64 QT_DLL QT_WIDGETS_LIB
 INCLUDEPATH += ./GeneratedFiles \
     . \
-    ./GeneratedFiles/$(ConfigurationName)
 DEPENDPATH += .
-MOC_DIR += ./GeneratedFiles/$(ConfigurationName)
 OBJECTS_DIR += debug
 UI_DIR += ./GeneratedFiles
 RCC_DIR += ./GeneratedFiles
